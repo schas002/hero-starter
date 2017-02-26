@@ -144,7 +144,6 @@ var moves = {
             return helpers.findNearestNonTeamDiamondMine(gameData);
         }
     },
-
     // The "Selfish Diamond Miner"
     // This hero will attempt to capture diamond mines (even those owned by teammates).
     selfishDiamondMiner: function (gameData, helpers) {
@@ -180,7 +179,7 @@ var moves = {
 };
 
 // Set our hero's strategy
-var move =  moves.aggressor;
+var move =  moves.blindMan;
 
 // Export the move function here
 module.exports = move;
